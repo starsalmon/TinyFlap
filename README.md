@@ -14,14 +14,11 @@ If you're looking for a fun and challenging game to play on your Lilygo T-QT dev
 
 ## TFT_eSPI library settings
 
-- Make sure to have an updated version of the [library](https://github.com/Bodmer/TFT_eSPI) where the following "User Setup" -file exists within the library -> `\User_Setups\Setup211_LilyGo_T_QT_Pro_S3.h`
-- Modify the `User_Setup_Select.h` file in the root folder of the library and uncomment this line -> `#include <User_Setups/Setup211_LilyGo_T_QT_Pro_S3.h>`
+- Settings are defined in platformio.ini under build_flags
 
 ## Board configuration
 
-- Flash Size: 4 MB
-- Partition Scheme: "Default 4MB with spiffs"
-- PSRAM: "QSPI PSRAM"
+- Board settings for esp32-s3-t-qt-pro
 
 ## Demo
 
